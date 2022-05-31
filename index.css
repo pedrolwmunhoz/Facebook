@@ -1,0 +1,153 @@
+body{
+    background-color: #F0F2F5;
+}
+
+
+.icone-login{
+    width: 240px;
+    margin-top: 150px;
+    margin-left: 15%;
+
+}
+
+.frase-login{
+    display: inline-block;
+    position: absolute;
+    top: 42%;
+    font-family: "Arial";
+    width: 35%;
+    margin-left: 15%;
+    font-weight: inherit;
+    font-size: 24px;
+    color: #1C1E21;
+}
+
+.caixa{
+    align-items: center;
+    display:flex;
+    position: absolute;
+    left: 55%;
+    bottom: 20%;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.322);
+    padding: 12px;
+    width: 396px;
+    height:360px ;
+}
+
+.input{
+    display: absolute;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+    
+}
+
+.email-senha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #ccd0d5;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 90%;
+
+}
+
+.esqueceu{
+    font-family: Arial, Helvetica, sans-serif;
+    color: ;
+}
+
+
+
+.entrar{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #ffff;
+    
+}
+
+.esqueceu{
+    position: absolute;
+    align-self: center;
+    top: 57%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.divisao{
+    width: 93%;
+    position: absolute;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px #dadde1 solid;
+    align-items: center;
+    top: 70%;
+
+}
+
+
+.nova-conta{
+    font-weight: bold;
+    position: absolute;
+    top: 78%;
+    width: 45%;
+    height: 15%;
+    align-self: center;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: #42B72A;
+    font-size: 17px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: none;
+
+
+    &:active{
+    background-color: #246418;
+}
+}
+
+.div-criarPagina{
+    position: absolute;
+    left: 55.5%;
+    top: 83%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 14px;
+    
+}
+
+.pagina{
+    display: inline-block;
+    
+    
+}
+.pagina2{
+    display: inline-block;
+    top: 100%;
+
+}
+.div-criarPagina2{
+    position: absolute;
+    left: 67.5%;
+    top: 86%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 14px;
+    
+}
